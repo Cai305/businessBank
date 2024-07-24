@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fixed_deposit_tables",
+  "info": {
+    "singularName": "fixed-deposit-table",
+    "pluralName": "fixed-deposit-tables",
+    "displayName": "fixed-deposit-table"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Period": {
+      "type": "string"
+    },
+    "NACM": {
+      "type": "decimal"
+    },
+    "Yield": {
+      "type": "decimal"
+    },
+    "annualEffective": {
+      "type": "decimal"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "prime_time_notice_deposits",
+  "info": {
+    "singularName": "prime-time-notice-deposit",
+    "pluralName": "prime-time-notice-deposits",
+    "displayName": "prime-time-notice-deposit"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Product": {
+      "type": "string"
+    },
+    "RateNACM": {
+      "type": "decimal"
+    },
+    "Yield": {
+      "type": "decimal"
+    },
+    "annualEffective": {
+      "type": "decimal"
+    },
+    "factSheetProductRules": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

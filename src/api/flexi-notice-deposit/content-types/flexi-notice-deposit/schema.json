@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "flexi_notice_deposits",
+  "info": {
+    "singularName": "flexi-notice-deposit",
+    "pluralName": "flexi-notice-deposits",
+    "displayName": "flexi-notice-deposit"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Product": {
+      "type": "string"
+    },
+    "rateNACM": {
+      "type": "decimal"
+    },
+    "annualEffective": {
+      "type": "decimal"
+    },
+    "factSheetProductRules": {
+      "type": "decimal"
+    }
+  }
+}
